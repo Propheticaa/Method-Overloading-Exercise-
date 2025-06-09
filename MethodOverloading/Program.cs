@@ -19,7 +19,7 @@
             return a + b;
         }
 
-        static string Add(int a, int b, bool c)
+        static string? Add(int a, int b, bool c)
         {
             if (c)
             {
@@ -27,7 +27,7 @@
             }
             else
             {
-                return "";
+                return null;
             }
         }
     }
